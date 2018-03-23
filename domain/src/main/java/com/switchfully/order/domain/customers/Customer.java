@@ -15,6 +15,7 @@ public class Customer {
     }
 
     public Customer(String firstName, String lastName, String emailAddress, Address address, String phoneNumber) {
+        this.id = UUID.randomUUID();
         this.firstName = firstName;
         this.lastName = lastName;
         this.emailAddress = emailAddress;
