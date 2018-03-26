@@ -61,6 +61,21 @@ public class Item {
         this.amount = amount;
     }
 
+    public void updateItem(Item newItem) {
+        if(newItem.getName() != null){
+            name = newItem.getName();
+        }
+        if(newItem.getDescription() != null){
+            description = newItem.getDescription();
+        }
+        if (newItem.getPrice() != null){
+            price = newItem.getPrice();
+        }
+        if (newItem.getAmount() != null){
+            amount = newItem.getAmount();
+        }
+    }
+
     public static class ItemBuilder{
         private Integer id;
         private String name;

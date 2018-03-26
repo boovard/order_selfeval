@@ -16,6 +16,10 @@
             <groupId>com.switchfully.order</groupId>
             <artifactId>domain</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.switchfully.order</groupId>
+            <artifactId>service</artifactId>
+        </dependency>
     </dependencies>
 
 
